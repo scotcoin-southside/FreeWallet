@@ -49,7 +49,7 @@
                         labelAlign: 'top',
                         xtype: 'textfield',
                         readOnly: true,
-                        label: 'Name',
+                        label: ' 名称',
                         itemId: 'asset',
                         value: ''
                     }]
@@ -68,66 +68,66 @@
                 },{
                     xtype: 'fw-actionfield',
                     iconCls: 'fa fa-files-o',
-                    label: 'Source',
+                    label: ', 来源',
                     itemId: 'source'
                 },{
                     xtype: 'fw-actionfield',
                     iconCls: 'fa fa-files-o',
-                    label: 'Issuer',
+                    label: ' 发行人-',
                     itemId: 'issuer'
                 },{
                     xtype: 'fw-actionfield',
                     iconCls: 'fa fa-files-o',
-                    label: 'Destination',
+                    label: ', 接收地址',
                     itemId: 'destination'
                 },{
-                    label: 'Quantity',
+                    label: ' 数额',
                     itemId: 'quantity'
                 },{
-                    label: 'Description',
+                    label: ' 说明',
                     itemId: 'description'
                 },{
-                    label: 'Divisible',
+                    label: ' 可分的',
                     itemId: 'divisible'
                 },{
-                    label: 'Buying',
+                    label: ' 购买',
                     itemId: 'buying'
                 },{
-                    label: 'Selling',
+                    label: '出售',
                     itemId: 'selling'
                 },{
-                    label: 'Locked',
+                    label: ' 加密的',
                     itemId: 'locked'
                 },{
-                    label: 'Transfer',
+                    label: ' 转账',
                     itemId: 'transfer'
                 },{
-                    label: 'Fee Paid',
+                    label: '费用',
                     itemId: 'feePaid'
                 },{
                     xtype: 'fw-actionfield',
-                    label: 'TX Hash',
+                    label: ' TX 哈希值',
                     itemId: 'hash',
                     iconCls: 'fa fa-globe'
                 },{
-                    label: 'Block #',
+                    label: ' 数据大小',
                     itemId: 'block'
                 },{
-                    label: 'Timestamp',
+                    label: ' 时间戳',
                     itemId: 'timestamp'
                 },{
-                    label: 'Miner Fee',
+                    label: ' 交易收',
                     itemId: 'fee'
                 },{
-                    label: 'Status',
+                    label: ' 状态',
                     itemId: 'status'
                 },{
-                    label: 'Value',
+                    label: '有效的',
                     itemId: 'value'
                 },{
                     xtype: 'textareafield',
                     labelAlign: 'top',
-                    label: 'Message',
+                    label: ' 资讯',
                     itemId: 'message',
                     maxRows: 1,
                     height: 70
