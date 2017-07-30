@@ -15,7 +15,7 @@ Ext.define('FW.view.Welcome', {
         items:[{
             xtype: 'toolbar',
             docked: 'top',
-            title: 'Welcome to'
+            title: ' 欢迎光临'
         },{
             xtype: 'container',
             margin: '0 5 0 5',
@@ -37,14 +37,14 @@ Ext.define('FW.view.Welcome', {
                 },
                 items:[{
                     iconCls: 'fa fa-spinner',
-                    text: 'New Wallet',
+                    text: ' 新钱包',
                     ui: 'confirm',
                     handler: function(btn){
                         Ext.getCmp('welcomeView').createWallet();
                     }
                 },{
                     iconCls: 'fa fa-keyboard-o margin-bottom-4',
-                    text: 'Existing Wallet',
+                    text: ' 现有钱包-',
                     ui: 'action',
                     margin: '0 0 0 5',
                     handler: function(btn){
@@ -54,7 +54,8 @@ Ext.define('FW.view.Welcome', {
             },{
                 xtype: 'container',
                 margin: '10 0 10 0',
-                html:'<p align="justify">You should only have to complete this wallet setup process once, after which your wallet is encrypted and saved to your device or browser.</p>'
+                html:'<p align="justify"> 这个钱包的设置过程之需要一次，然后您的钱包将会被加密并且保存到设备或浏览器上。
+.</p>'
             },{
                 xtype: 'container',
                 margin: '10 0 10 0',
