@@ -11,7 +11,7 @@
         scrollable: 'vertical',
         items:[{
             xtype: 'fw-toptoolbar',
-            title: 'Information',
+            title: '资讯',
             menu: true
         },{
             xtype: 'container',
@@ -48,7 +48,7 @@
                         labelAlign: 'top',
                         xtype: 'textfield',
                         readOnly: true,
-                        label: 'Name',
+                        label: ' 名称',
                         itemId: 'asset'
                     }]
                 },{
@@ -59,7 +59,7 @@
                         labelAlign: 'top',
                         xtype: 'textfield',
                         readOnly: true,
-                        label: 'My Balance',
+                        label: ',我的余额--',
                         itemId: 'balance'
                     }]
                 }]
@@ -73,12 +73,12 @@
                     flex: 1
                 },
                 items: [{
-                    text: 'Send',
+                    text: '发送--',
                     itemId: 'send',
                     ui: 'confirm',
                     iconCls: 'fa fa-paper-plane'
                 },{
-                    text: 'Receive',
+                    text: ',接收--',
                     itemId: 'receive',
                     ui: 'action',
                     iconCls: 'fa fa-qrcode',
@@ -93,36 +93,37 @@
                     readOnly: true
                 },
                 items:[{
-                    label: 'Total Supply',
+                    label: ',总供应',
                     itemId: 'supply'
                 },{
-                    label: 'USD Price',
+                    label: ',美元价格',
                     itemId: 'usd'
                 },{
-                    label: 'BTC Price',
+                    label: ' BTC 价格',
                     itemId: 'btc'
                 },{
-                    label: 'XCP Price',
+                    label: ' XCP 价格',
                     itemId: 'xcp'
                 },{
-                    label: 'Divisible',
+                    label: '可分的',
                     itemId: 'divisible'
                 },{
-                    label: 'Locked',
+                    label: ',加密的--
+',
                     itemId: 'locked'
                 },{
-                    label: 'Issuer',
+                    label: ',发行人',
                     itemId: 'issuer'
                 },{
-                    label: 'Owner',
+                    label: ', 持有人--',
                     itemId: 'owner'
                 },{
-                    label: 'Description',
+                    label: ',说明-',
                     itemId: 'description'
                 },{
                     xtype: 'fw-actionfield',
                     cls: 'x-last-field',
-                    label: 'Website',
+                    label: '网站',
                     itemId: 'website',
                     iconCls: 'fa fa-globe',
                     handler: function(btn,url){
