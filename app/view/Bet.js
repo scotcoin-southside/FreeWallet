@@ -14,7 +14,7 @@ Ext.define('FW.view.Bet', {
         cls: 'fw-panel',
         items:[{
             xtype: 'fw-toptoolbar',
-            title: 'Bet',
+            title: '赌注',
             menu: true
         },{
             xtype: 'container',
@@ -26,7 +26,7 @@ Ext.define('FW.view.Bet', {
             },{
                 margin: '10 0 0 0',
                 cls: 'fw-placeholder-instructions',
-                html:'<center>Coming Soon</center>'
+                html:'<center> 即将发布</center>'
             }]
         }]
     },
