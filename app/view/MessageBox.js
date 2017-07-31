@@ -6,10 +6,10 @@
 
 // Customize standardized set of buttons
 var statics = {
-    OK    : {text: 'OK',     itemId: 'ok',  ui: 'action'},
-    YES   : {text: 'Yes',    itemId: 'yes', ui: 'action'},
-    NO    : {text: 'No',     itemId: 'no'},
-    CANCEL: {text: 'Cancel', itemId: 'cancel'},
+    OK    : {text: '同意',     itemId: 'ok',  ui: 'action'},
+    YES   : {text: ' 是',    itemId: 'yes', ui: 'action'},
+    NO    : {text: ' 否',     itemId: 'no'},
+    CANCEL: {text: ' 取消', itemId: 'cancel'},
 
     INFO    : Ext.baseCSSPrefix + 'msgbox-info',
     WARNING : Ext.baseCSSPrefix + 'msgbox-warning',
@@ -17,17 +17,17 @@ var statics = {
     ERROR   : Ext.baseCSSPrefix + 'msgbox-error',
 
     OKCANCEL: [
-        {text: 'OK',     itemId: 'ok',     ui: 'confirm', iconCls: 'fa fa-thumbs-up margin-bottom-4', flex: 1},
-        {text: 'Cancel', itemId: 'cancel', ui: 'decline', iconCls: 'fa fa-thumbs-down margin-bottom-4', flex: 1}
+        {text: ' 同意',     itemId: 'ok',     ui: 'confirm', iconCls: 'fa fa-thumbs-up margin-bottom-4', flex: 1},
+        {text: ',取消', itemId: 'cancel', ui: 'decline', iconCls: 'fa fa-thumbs-down margin-bottom-4', flex: 1}
     ],
     YESNOCANCEL: [
-        {text: 'Yes',    itemId: 'yes', ui: 'confirm'},
-        {text: 'No',     itemId: 'no',  ui: 'decline'},
-        {text: 'Cancel', itemId: 'cancel', ui: 'action'}
+        {text: ' 是',    itemId: 'yes', ui: 'confirm'},
+        {text: ' 否',     itemId: 'no',  ui: 'decline'},
+        {text: ',取消', itemId: 'cancel', ui: 'action'}
     ],
     YESNO: [
-        {text: 'Yes', itemId: 'yes', ui: 'confirm', iconCls: 'fa fa-thumbs-up margin-bottom-4', flex: 1},
-        {text: 'No',  itemId: 'no',  ui: 'decline', iconCls: 'fa fa-thumbs-down margin-bottom-4', flex: 1}
+        {text: ',是', itemId: 'yes', ui: 'confirm', iconCls: 'fa fa-thumbs-up margin-bottom-4', flex: 1},
+        {text: ' 否',  itemId: 'no',  ui: 'decline', iconCls: 'fa fa-thumbs-down margin-bottom-4', flex: 1}
     ]
 };
 
