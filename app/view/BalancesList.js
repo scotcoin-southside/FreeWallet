@@ -57,7 +57,7 @@ Ext.define('FW.view.BalancesList', {
         },
         items:[{
             xtype: 'fw-toptoolbar',
-            title: 'My Balances',
+            title: '我的余额',
             refresh: true,
             onRefresh: function(){
                 var me = Ext.getCmp('balancesList');
@@ -67,7 +67,7 @@ Ext.define('FW.view.BalancesList', {
                 me.getStore().removeAll();
                 me.setMasked({
                     xtype: 'loadmask',
-                    message: 'Refreshing Balances',
+                    message: ',刷新余',
                     showAnimation: 'fadeIn',
                     indicator: true
                 });
