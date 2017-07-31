@@ -37,7 +37,7 @@ Ext.define('FW.view.tablet.History', {
                 },{
                     margin: '10 0 0 0',
                     cls: 'fw-currencyinfo-instructions',
-                    html:'<center>Please select a transaction<br/>from the list on the left</center>'
+                    html:'<center>请选择交易<br/>从左边的目录中t</center>'
                 }]
             },{
                 xtype: 'fw-transactioninfo',
