@@ -1,0 +1,35 @@
+Note - Translation is in red text below.
+
+FreeWallet/app/view/phone/TokenInfo.js:67:                    //translate the line below between ''
+FreeWallet/app/view/phone/TokenInfo.js-68-                    text: 'Send', 发送
+--
+FreeWallet/app/view/phone/TokenInfo.js:73:                    //translate the line below between ''
+FreeWallet/app/view/phone/TokenInfo.js-74-                    text: 'Receive', 接收
+--
+FreeWallet/app/view/phone/TokenInfo.js:90:                    //translate the line below between ''
+FreeWallet/app/view/phone/TokenInfo.js-91-                    label: 'My Balance', 我的余额
+--
+FreeWallet/app/view/phone/TokenInfo.js:94:                    //translate the line below between ''
+FreeWallet/app/view/phone/TokenInfo.js-95-                    label: 'Total Supply', 总供应
+--
+FreeWallet/app/view/phone/TokenInfo.js:98:                    //translate the line below between ''
+FreeWallet/app/view/phone/TokenInfo.js-99-                    label: 'USD Price', 美元价格
+--
+FreeWallet/app/view/phone/TokenInfo.js:102:                    //translate the line below between ''
+FreeWallet/app/view/phone/TokenInfo.js-103-                    label: 'BTC Price', BTC 价格
+--
+FreeWallet/app/view/phone/TokenInfo.js:106:                    //translate the line below between ''
+FreeWallet/app/view/phone/TokenInfo.js-107-                    label: 'XCP Price', XCP 价格
+--
+FreeWallet/app/view/phone/TokenInfo.js:110:                    //translate the line below between ''
+FreeWallet/app/view/phone/TokenInfo.js-111-                    label: 'Divisible', 可分的
+--
+FreeWallet/app/view/phone/TokenInfo.js:114:                    //translate the line below between ''
+FreeWallet/app/view/phone/TokenInfo.js-115-                    label: 'Locked', 加密的
+--
+FreeWallet/app/view/phone/TokenInfo.js:118:                    //translate the line below between ''
+FreeWallet/app/view/phone/TokenInfo.js-119-                    label: 'Issuer', 发行人
+--
+FreeWallet/app/view/phone/TokenInfo.js:122:                    //translate the line below between ''
+FreeWallet/app/view/phone/TokenInfo.js-123-                    label: 'Owner', 持有人
+--
